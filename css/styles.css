@@ -277,12 +277,12 @@ body {
 @media screen and (min-width: 56.25rem) {
   /* || MAIN */
   .main__container {
-    padding: 0;
+    padding: 2rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "card1  card1   card2   card5"
       "card3  card4   card4   card5";
-    max-width: 69.5rem;
+    max-width: 73.5rem;
     column-gap: 2rem;
     row-gap: 1rem;
   }
