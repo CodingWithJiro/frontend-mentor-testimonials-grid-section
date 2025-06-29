@@ -274,17 +274,23 @@ body {
 }
 
 /* || MEDIA QUERY (DEVICE WIDTH) */
-@media screen and (min-width: 56.25rem) {
+@media screen and (min-width: 48rem) {
   /* || MAIN */
   .main__container {
     padding: 2rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "card1  card1   card2   card5"
-      "card3  card4   card4   card5";
+      "card1  card1"
+      "card2  card3"
+      "card4  card4"
+      "card5  card5";
     max-width: 73.5rem;
     column-gap: 2rem;
-    row-gap: 1rem;
+    row-gap: 2rem;
+  }
+
+  .card {
+    max-width: 56.25rem;
   }
 
   .card__title {
@@ -319,6 +325,32 @@ body {
   }
 }
 
+@media screen and (min-width: 56.25rem) {
+  /* || MAIN */
+  .main__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "card1  card1   card2"
+      "card3  card4   card4"
+      "card5  card5   .";
+  }
+
+  .card {
+    max-width: 75rem;
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  /* || MAIN */
+  .main__container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card1  card1   card2   card5"
+      "card3  card4   card4   card5";
+    row-gap: 1rem;
+  }
+}
+
 /* || MEDIA QUERY (REDUCED MOTION) */
 /* CHANGE THE DATA BELOW AS NEEDED */
 @media (prefers-reduced-motion: no-preference) {
@@ -328,6 +360,11 @@ body {
 
   .card {
     transition: transform 0.15s ease-in-out;
+  }
+
+  * {
+    transition: background-color 0.15s ease-in-out, border 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
   }
 }
 
