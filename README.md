@@ -99,7 +99,7 @@ Or you can check out the 👉 [live website here](https://testimonials-grid-sect
 
 ## 📊 Performance Report
 
-A **Google Lighthouse** audit was conducted on the final version of this project—view the full report [here](./assets/downloads/lighthouse-performance-report.pdf)
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
 
 ---
 
