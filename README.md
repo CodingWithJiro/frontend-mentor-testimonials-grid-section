@@ -1,4 +1,4 @@
-# 💻 Testimonials Grid Section
+# Testimonials Grid Section
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,7 +21,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%203-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-testimonials-grid-section&left_text=repo%20views)
 
-## ℹ️ A Responsive Grid of Testimonials Section Page
+## A Responsive Grid of Testimonials Section Page
 
 | _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -30,11 +30,11 @@
 
 This project showcases a responsive grid of testimonial cards, each featuring a real-world user’s experience.
 
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+Created as part of the building challenges from **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This site was built using semantic HTML5 and custom CSS, with accessibility and responsive design in mind where each testimonial card is styled individually using CSS Grid with named areas.
 
@@ -42,7 +42,7 @@ It features subtle hover effects, adaptive color schemes (light/dark), semantic 
 
 ---
 
-## ✨ Features
+## Features
 
 - Mobile-first responsive design using CSS Grid
 - Dark mode support using `prefers-color-scheme`
@@ -54,7 +54,7 @@ It features subtle hover effects, adaptive color schemes (light/dark), semantic 
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Implementing advanced CSS Grid with area mapping for dynamic layouts
 - Creating and organizing CSS variables for theme toggles
@@ -67,7 +67,7 @@ It features subtle hover effects, adaptive color schemes (light/dark), semantic 
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML5
 - CSS3
@@ -77,36 +77,36 @@ It features subtle hover effects, adaptive color schemes (light/dark), semantic 
 
 ---
 
-## 🎨 Design Reference & Tools
+## Design Reference & Tools
 
 - JPG design image
 - PerfectPixel
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-Or you can check out the 👉 [live website here](https://testimonials-grid-section-fm-jiro.netlify.app/)
-
----
-
-## 📊 Performance Report
-
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+Or you can check out the **[live website here](https://testimonials-grid-section-fm-jiro.netlify.app/)**
 
 ---
 
-## 🧑‍💻 Author
+## Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./assets/downloads/lighthouse-performance-report.pdf)**.
+
+---
+
+## Author
 
 Created by **Elmar Chavez**
 
-🗓️ Month/Year: **June 2025**
+Month/Year: **June 2025**
 
-📚 Journey: **3<sup>rd</sup>** month of learning _frontend web development_.
+Journey: **3<sup>rd</sup>** month of learning _frontend web development_.
